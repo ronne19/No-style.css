@@ -1,33 +1,17 @@
-# No-style.css
 
-body, html {
+body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 header {
-  background: #222;
+  background-color: #222;
   color: white;
   padding: 10px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
+  text-align: center;
 }
 
-button {
-  padding: 6px 12px;
-  border: none;
-  background: #444;
-  color: white;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #666;
-}
-
-#canvas {
-  background: #f9f9f9;
+canvas {
   display: block;
+  background-color: #fff;
 }
